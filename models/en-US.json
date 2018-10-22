@@ -1,0 +1,85 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "car go",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "MyNameIsIntent",
+          "slots": [
+            {
+              "name": "name",
+              "type": "AMAZON.US_FIRST_NAME"
+            }
+          ],
+          "samples": [
+            "{name}",
+            "{name} is my name",
+            "my name is {name}",
+            "i am {name}",
+            "you can call me {name}"
+          ]
+        },
+        {
+          "name": "PriceIntent",
+          "slots": [
+            {
+              "name": "make",
+              "type": "make"
+            },
+            {
+              "name": "model",
+              "type": "model"
+            }
+          ],
+          "samples": [
+            "ask price for {make} {model}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "nissan"
+              }
+            },
+            {
+              "name": {
+                "value": "honda"
+              }
+            }
+          ],
+          "name": "make"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "altima"
+              }
+            },
+            {
+              "name": {
+                "value": "civic"
+              }
+            }
+          ],
+          "name": "model"
+        }
+      ]
+    }
+  }
+}

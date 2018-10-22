@@ -1,0 +1,73 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": true,
+		"sessionId": "amzn1.echo-api.session.07eee39f-ee50-4acd-98a5-260ef0eb35aa",
+		"application": {
+			"applicationId": "amzn1.ask.skill.d1ec2356-dda3-4698-8a8a-349d90984ae7"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AHTG5SWE355XUWG672EUZWZOJA64VDXPOZ6EOHWRPRC7XL2LVTONTFCNI4Z4WOUTUQTJTOQM4RLQGLZDMIC6D462JVWVZCF54NV3PBXN6EF3VB2JMOSPOC53BWRGIDC562LY26N4DSJXI3SFFJFQ7HDFESPJLLQDWV3W6HHII5I53BEQML6IJQF46C7KKXVMBPDFDINUNDLI76A"
+		}
+	},
+	"context": {
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.d1ec2356-dda3-4698-8a8a-349d90984ae7"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AHTG5SWE355XUWG672EUZWZOJA64VDXPOZ6EOHWRPRC7XL2LVTONTFCNI4Z4WOUTUQTJTOQM4RLQGLZDMIC6D462JVWVZCF54NV3PBXN6EF3VB2JMOSPOC53BWRGIDC562LY26N4DSJXI3SFFJFQ7HDFESPJLLQDWV3W6HHII5I53BEQML6IJQF46C7KKXVMBPDFDINUNDLI76A"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AGBAPO7ZWHY7MVKOPTPZ4XLJMMKH5YYA5Y35EXL2AWFJXDTX2LCA6MYOSTD4RPBN2ULCUOYMFLCH7X2PG2H2LOR6WBLBSBAR2TIVT26DSR5SNNFIRLOO2DMTUHGF7XQ3S467LWZ2UC6U7C4X4QYHCGSMZQLPW7BCZEU7462AWUMGUQQDHKH6S",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLmQxZWMyMzU2LWRkYTMtNDY5OC04YThhLTM0OWQ5MDk4NGFlNyIsImV4cCI6MTU0MDA3MTYxNiwiaWF0IjoxNTQwMDY4MDE2LCJuYmYiOjE1NDAwNjgwMTYsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUdCQVBPN1pXSFk3TVZLT1BUUFo0WExKTU1LSDVZWUE1WTM1RVhMMkFXRkpYRFRYMkxDQTZNWU9TVEQ0UlBCTjJVTENVT1lNRkxDSDdYMlBHMkgyTE9SNldCTEJTQkFSMlRJVlQyNkRTUjVTTk5GSVJMT08yRE1UVUhHRjdYUTNTNDY3TFdaMlVDNlU3QzRYNFFZSENHU01aUUxQVzdCQ1pFVTc0NjJBV1VNR1VRUURIS0g2UyIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFIVEc1U1dFMzU1WFVXRzY3MkVVWldaT0pBNjRWRFhQT1o2RU9IV1JQUkM3WEwyTFZUT05URkNOSTRaNFdPVVRVUVRKVE9RTTRSTFFHTFpETUlDNkQ0NjJKVldWWkNGNTROVjNQQlhONkVGM1ZCMkpNT1NQT0M1M0JXUkdJREM1NjJMWTI2TjREU0pYSTNTRkZKRlE3SERGRVNQSkxMUURXVjNXNkhISUk1STUzQkVRTUw2SUpRRjQ2QzdLS1hWTUJQREZESU5VTkRMSTc2QSJ9fQ.AS9MaB2_i44bCUtD3tQAm2Td88CQuCDL5jre9PhtbRwYAAr8me-sLp0FUWVi0j0plac5VH2KenWHR8q4uOemhMd623_1hAdD3LCmK2YRRvV0pVqlv10pcjGFEfuDOGQkewO8HwGIhNRKLNIB6XBJUI3702vzisyCOJrgwRegQhhF_iw4nKNk6ZwEDPrQpJQ1qdb08EBjHcqzwyls8eVzNGoDuqY1wB5HC5pH3IUIBD94wmEkegF1mdXzfXzG3DhMgP4nFlmliGtCDNZVCBb5CzSpGusjvj8K2PgURh8Sd3nq0fovWDUTQkMF2VKSFLFvE6HgSLUZSbdA-Dzj8k_-pQ"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.c5e8dd71-be8e-4642-a82e-753fc359de3f",
+		"timestamp": "2018-10-20T20:40:16Z",
+		"locale": "en-US",
+		"intent": {
+			"name": "PriceIntent",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"make": {
+					"name": "make",
+					"value": "Audi",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.d1ec2356-dda3-4698-8a8a-349d90984ae7.make",
+								"status": {
+									"code": "ER_SUCCESS_NO_MATCH"
+								}
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"model": {
+					"name": "model",
+					"value": "a6",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.d1ec2356-dda3-4698-8a8a-349d90984ae7.model",
+								"status": {
+									"code": "ER_SUCCESS_NO_MATCH"
+								}
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				}
+			}
+		}
+	}
+}

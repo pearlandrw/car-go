@@ -1,0 +1,16 @@
+{
+  "name": "car-go",
+  "version": "1.0.0",
+  "description": "Car deals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bits-n-Bytes",
+  "license": "",
+  "dependencies": {
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-model": "^1.0.0",
+    "concat-stream": "^1.6.2"
+  }
+}
